@@ -1,0 +1,40 @@
+{
+  "name": "eslint-config",
+  "version": "1.0.0",
+  "description": "Shared ESLint configuration for Nest microservices and Vite/React application in a Turborepo setup.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "peerDependencies": {
+    "eslint": "^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint-plugin-react": "^7.0.0",
+    "eslint-plugin-react-hooks": "^4.0.0",
+    "eslint-plugin-import": "^2.0.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.0.0",
+    "@typescript-eslint/parser": "^5.0.0",
+    "eslint-plugin-react": "^7.0.0",
+    "eslint-plugin-react-hooks": "^4.0.0",
+    "eslint-plugin-import": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yourusername/yourrepository.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslint-config",
+    "typescript",
+    "react",
+    "nestjs",
+    "turborepo"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
